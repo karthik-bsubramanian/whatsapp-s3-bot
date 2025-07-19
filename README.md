@@ -178,12 +178,13 @@ Object creation : Select All object create events
 
 ![Destination](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yzf0p6scf2l37r7hlobo.png)
 
->Wait for 30 sec and also check in spam folder for the mail....if you do not receive mail after 2 min go to the monitor tab in Lambda Function and check the log groups in cloudwatch
+>Wait for 30 sec if not received check in spam folder as well....if you did not receive mail after 2 min go to the monitor tab in Lambda Function and check the log groups in cloudwatch
 
 
 ![Cloudwatch logs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/agjlw0q8kd4etxnah2kh.png)
 
+Sometimes upload via whatsapp may not work due to msgs sent via whatsapp are compressed it is hard to reconstruct the buffer and upload it to s3 but still the manual upload to s3 works well 
 
-
+cheers! if you've read until this 💪🥹
  
 
